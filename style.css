@@ -35,11 +35,11 @@ body {
     font-size: 4em;
     color: #F8383B;
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     display: inline-block;
-    width: 80px;
+    width: fit;
 }
 
 button {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p class="label big">Basketball Scoreboard</p>
+        <div class="scoreboard">
+            <div class="team">
+                <div class="label">HOME</div>
+                <div id="homeScore" class="score">0</div>
+                <div>
+                    <button onclick="homeScore1()">+1</button>
+                    <button onclick="homeScore2()">+2</button>
+                    <button onclick="homeScore3()">+3</button>
+                </div>
+            </div>
+            <div class="team">
+                <div class="label">GUEST</div>
+                <div id="guestScore" class="score">0</div>
+                <div>
+                    <button onclick="guestScore1()">+1</button>
+                    <button onclick="guestScore2()">+2</button>
+                    <button onclick="guestScore3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="reset()">
+            Reset
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

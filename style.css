@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1E2A46;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1E2A46;
+    border-radius: 10px;
+    font-family: 'Orbitron',sans-serif;
+}
+
+.team {
+    text-align: center;
+    color: white;
+}
+
+.label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 4em;
+    color: #F8383B;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80px;
+}
+
+button {
+    background-color: #394867;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F8383B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}

@@ -1,2 +1,3 @@
 # Basketball-Scoreboard
-Using only Html, Css and JavaScript
+
+# Check it out https://samuelonoh.github.io/Basketball-Scoreboard/
